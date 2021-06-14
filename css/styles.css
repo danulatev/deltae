@@ -1,0 +1,61 @@
+/***************** TAG SELECTORS *****************/
+body{
+  background-color: #222222;
+}
+
+input{
+  background-color: #f9f3f3;
+}
+
+textarea{
+  background-color: #f9f3f3;
+}
+
+/***************** CLASS SELECTORS *****************/
+.anchorsmainpage{
+  color:grey;
+  text-decoration: none;
+}
+
+.bgcolormainpage{
+  background-color: #222222;
+}
+
+.coverimage{
+  width:100%;
+}
+
+.hrmainpage{
+  border-style:solid none none none;
+  height:1px;
+  background-color: #f3f0d7;
+}
+
+.mainpagequote{
+  color:grey;
+  font-size: 18px;
+}
+
+.objectdescription{
+  text-align:justify;
+  line-height: 1.5;
+}
+
+.objectdescgreyletters{
+  text-align:justify;
+  line-height: normal;
+  color:grey;
+  font-size:18px; 
+}
+
+.sitecontentrow{
+  text-align: center;
+  background-color:#f3f0d7;
+  font-family:inherit;
+  width:100%;
+}
+
+
+
+
+/***************** ID SELECTORS *****************/
