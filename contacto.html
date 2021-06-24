@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contactanos</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body class="objectdescgreyletters">
-    <hr>
-    <center><h2>CONTACTO</h2></center>
-    <hr>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contactenos</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body class="">
+
+  <div class="div-top-contact">
+    <center>
+      <h2>CONTACTO</h2>
+    </center>
+  </div>
+
+  <!-- MIDDLE DIVISION -->
+
+  <div class="div-middle-contact">
     <h2>Información de contacto</h2>
-  <p>Heredia, CR</p>
-  <!--<p>Tel. +506 8765 4321</p>-->
-  <p>facebook.com/<a style="color:#f3f0d7;" href="https://www.facebook.com/groups/estudiantesdeltae">estudiantesdeltae</a></p>
-  <p>Teléfonos: +506 87654321 / +506 88654321</p>
-  <P>Email: correoesteban@email.com / correodannis@email.com</P>
-  <!--
-  NOTES:
-  action="" defines what happens when clicking "submit"
-  we got rid of the class="" form's attribute & used the
-  enctype="" form's attribute in order to avoid unwanted characters (encode data correctly)
-  -->
-  <form action="mailto:deltaetutorias@email.com" method="post" enctype="text/plain">
-    <table>  <!--created to properly justify boxes-->
-      <tr>
-        <td><label>Nombre:</label></td>
-        <td><input type="text" name="yourName" value=""><br></td>
-      </tr>
-      <tr>
-        <td><label>Correo:</label></td>
-        <td><input type="email" name="yourEmail" value=""></td>
-      </tr>
-    </table>
-    <label>Mensaje:</label><br>
-    <!-- <textarea> element down below / we'll set it at 10x30-->
-    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
-    <input type="submit">
-    <br><br>
-    <hr>
-    <a class="anchorsmainpage" href="index.html">Inicio</a>
-  </body>
+
+    <p>Heredia, CR</p>
+    <!--<p>Tel. +506 8765 4321</p>-->
+    <p>facebook.com/<a style="color:#222222;" href="https://www.facebook.com/groups/estudiantesdeltae"><strong>estudiantesdeltae</strong></a></p>
+    <p>Teléfonos: +506 87654321 / +506 88654321</p>
+    <P>Email: correoesteban@email.com / correodannis@email.com</P>
+
+    <form action="mailto:deltaetutorias@email.com" method="post" enctype="text/plain">
+
+      <center>
+        <table>
+          <!--created to properly justify boxes-->
+          <tr>
+            <td><label>Nombre:</label></td>
+            <td><input type="text" name="yourName" value=""><br></td>
+          </tr>
+          <tr>
+            <td><label>Correo:</label></td>
+            <td><input type="email" name="yourEmail" value=""></td>
+          </tr>
+        </table>
+      </center>
+      
+      <label>Mensaje:</label><br>
+      <!-- <textarea> element down below / we'll set it at 10x30-->
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit">
+    </form>
+  </div>
+
+  <!-- BOTTOM DIVISION -->
+  <div class="div-bottom">
+    <a class="a-bottom" href="index.html">Inicio</a>
+    <a class="a-bottom" href="contacto.html">Contacto</a>
+    <a class="a-bottom" href="https://www.mep.go.cr/sites/default/files/programadeestudio/programas/matematica.pdf">Programas MEP</a>
+    <a class="a-bottom" href="https://www.mep.go.cr/protocolos-de-actuacion">Protocolos</a>
+    <a class="a-bottom" href="http://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=85815">REA</a>
+    <a class="a-bottom" href="https://www.wolframalpha.com/">WolframAlpha</a>
+  </div>
+
+</body>
+
 </html>

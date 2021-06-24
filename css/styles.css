@@ -17,7 +17,7 @@ textarea{
 .a-bottom {
   font-size: 18px;
   display: inline-block;
-  width:190px;
+  width:150px;
   color:grey;
   text-decoration: none;
 }
@@ -34,14 +34,29 @@ textarea{
   background-color: #222222;
 }
 
+.div-top-contact {
+  background-color: #222222;
+  color:#f3f0d7;
+  position: absolute;
+  top:0;
+  width:100%;
+}
+
 .div-middle {
-  margin: 30px auto 30px auto;
+  margin: 30px auto 60px auto;
+}
+
+.div-middle-contact {
+  margin: 120px auto 30px  auto;
 }
 
 .div-bottom {
   background-color: #222222;
   padding-top: 5px;
   padding-bottom: 5px;
+  position:fixed;
+  bottom:0;
+  width:100%;
 }
 
 .p-quote {
