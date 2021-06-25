@@ -1,8 +1,9 @@
 /***************** TAG SELECTORS *****************/
 body{
-  background-color: #f3f0d7;
-  margin:0;
+  background-image: linear-gradient(180deg,#D8B384,#F3F0D7,#FFF5DA);
+  background-attachment: fixed;
   text-align: center;
+  margin:0;
 }
 
 input{
@@ -19,7 +20,7 @@ textarea{
 .a-bottom {
   font-size: 20px;
   display: inline-block;
-  width:170px;
+  width:150px;
   color:grey;
   text-decoration: none;
 }
