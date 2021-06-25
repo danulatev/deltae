@@ -44,6 +44,10 @@ textarea{
   text-decoration: none;
 }
 
+.a-middle-courses:hover {
+  color:#222222;
+}
+
 .body-contact {
   background-image: url(https://napacentre.com.au/wp-content/uploads/2014/04/Autism-Awareness.jpg);
   background-size:cover;
